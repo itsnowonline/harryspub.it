@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Harry's Pub</title>
+
+  <!-- Mobile friendly viewport, no auto zoom -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <img src="assets/logo.png" alt="Harry's Pub logo" class="logo" />
+      <span class="pub-name" data-i18n="pub.name">Harry's Pub</span>
+    </div>
+
+    <div class="header-right">
+      <button class="lang-switch" data-lang-switch>
+        <span data-lang-label>EN</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <section class="hero">
+      <h1 class="hero-title" data-i18n="hero.title">Harry's Pub</h1>
+
+      <p class="hero-subtitle" data-i18n="hero.subtitle">
+        Eat, drink and chill in the heart of the city.
+      </p>
+
+      <a href="menu.html" class="btn-primary" data-i18n="hero.menuButton">
+        FOOD MENÙ
+      </a>
+    </section>
+
+    <section class="contact">
+      <h2 class="section-title" data-i18n="contact.title">Find us</h2>
+
+      <div class="contact-row">
+        <span class="contact-label" data-i18n="contact.addressLabel">Address</span>
+        <span class="contact-value" data-i18n="contact.address">
+          Via Lubelli 9
+        </span>
+      </div>
+
+      <div class="contact-row">
+        <span class="contact-label" data-i18n="contact.phoneLabel">Phone</span>
+        <a class="contact-value" href="tel:0836505587" data-i18n="contact.phone">
+          0836505587
+        </a>
+      </div>
+
+      <div class="contact-row">
+        <span class="contact-label" data-i18n="contact.emailLabel">Email</span>
+        <a class="contact-value" href="mailto:harshansibia1081@gmail.com" data-i18n="contact.email">
+          harshansibia1081@gmail.com
+        </a>
+      </div>
+
+      <div class="contact-row">
+        <span class="contact-label" data-i18n="contact.hoursLabel">Opening hours</span>
+        <span class="contact-value" data-i18n="contact.hours">
+          11:00–15:00, 18:00–00:00
+        </span>
+      </div>
+
+      <div class="social-row">
+        <span class="contact-label" data-i18n="contact.followUs">Follow us</span>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/16VoNDSezG/" target="_blank" rel="noopener">
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/sibia505pub/?utm_source=qr&r=nametag"
+             target="_blank" rel="noopener">
+            Instagram
+          </a>
+        </div>
+      </div>
+
+      <div class="maps-row">
+        <span class="contact-label" data-i18n="maps.label">Maps</span>
+        <button class="maps-button" type="button" data-maps-trigger>
+          <img src="assets/maps.png" alt="Open in Maps" class="maps-icon" />
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">
+      <span data-i18n="footer.copy">© Harry's Pub. All rights reserved.</span>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/welcome.js"></script>
+  <script src="js/maps-popup.js"></script>
+  <script src="js/language-switch.js"></script>
+</body>
+</html>
