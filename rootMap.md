@@ -15,4 +15,4 @@ pub-site/
 └─ assets/
     ├─ logo.png     
     └─ maps.png     
-    └─ og-logo.png
+    └─ og-img.png
