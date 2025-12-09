@@ -65,7 +65,7 @@ export const page0HTML = `
 /* ============================================================
    PAGE 1 — MENU PAGE 1 (ONLY FLOATING BUTTONS)
 ============================================================ */
-export const page1HTML = `
+export const page2HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
@@ -134,7 +134,7 @@ export const page1HTML = `
 /* ============================================================
    PAGE 2 — MENU PAGE 2 (ONLY FLOATING BUTTONS)
 ============================================================ */
-export const page2HTML = `
+export const page3HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
@@ -190,7 +190,7 @@ export const page2HTML = `
 /* ============================================================
    PAGE 3 — BURGER MENU (ONLY FLOATING BUTTONS)
 ============================================================ */
-export const page3HTML = `
+export const page4HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
@@ -242,7 +242,7 @@ export const page3HTML = `
 /* ============================================================
    PAGE 4 — PINSE + CARNE MENU (ONLY FLOATING BUTTONS)
 ============================================================ */
-export const page4HTML = `
+export const page5HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
@@ -313,7 +313,7 @@ export const page4HTML = `
 /* ============================================================
    PAGE 5 — CARNE NEL PIATTO (MATCHED TO PAGE 4 FORMAT)
 ============================================================ */
-export const page5HTML = `
+export const page6HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
@@ -393,7 +393,7 @@ export const page5HTML = `
 /* ============================================================
    PAGE 6 — INSALATE (ONLY FLOATING BUTTONS)
 ============================================================ */
-export const page6HTML = `
+export const page7HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
@@ -442,7 +442,7 @@ export const page6HTML = `
 /* ============================================================
    PAGE 7 — BEER MENU (EXACTLY AS YOU SENT)
 ============================================================ */
-export const page7HTML = `
+export const page8HTML = `
 <div class="menuPage">
 
     <div class="img-top-right img-slot"></div>
@@ -554,7 +554,7 @@ e le note citriche.</div>
 /* ============================================================
    PAGE 8 — INDIAN SPECIAL (FIXED WITH ALL IMAGES)
 ============================================================ */
-export const page8HTML = `
+export const page1HTML = `
 <div class="menuPage">
 
     <div class="floating-menu-btns">
