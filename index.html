@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harry's Pub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/popup.css">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="LETS DRINK EAT AND HAVE FUN TOGETHER">
+    <meta property="og:description" content="Enjoy the good vibes with your friends at Harry’s Pub. Great food, great drinks, great moments.">
+    <meta property="og:image" content="https://harryspub.it/assets/img/1200x630.jpeg">
+    <meta property="og:url" content="https://harryspub.it">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Harry's Pub">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LETS DRINK EAT AND HAVE FUN TOGETHER">
+    <meta name="twitter:description" content="Enjoy the good vibes with your friends at Harry’s Pub. Great food, great drinks, great moments.">
+    <meta name="twitter:image" content="https://harryspub.it/assets/img/1200x630.jpeg">
+</head>
+
+<body>
+
+    <!-- POPUP CONTROLLER -->
+    <script type="module" src="js/popup.js"></script>
+
+    <!-- POPUP OVERLAY -->
+    <div id="openingOverlay" class="opening-overlay">
+        <div class="overlay-inner">
+            <img src="assets/img/nuova-apertura.jpg" class="overlay-img" alt="New Opening">
+            <div class="overlay-text">Grand Opening – Harry's Pub</div>
+            <button id="closeOverlay" class="overlay-close">×</button>
+        </div>
+    </div>
+
+    <!-- MAIN APP -->
+    <main id="app"></main>
+
+    <!-- CORE CONTROLLERS -->
+     <script src="js/preload-images.js"></script>
+    <script type="module" src="js/swipe.js"></script>
+    <script type="module" src="js/social-links.js"></script>
+    <script type="module" src="js/share-links.js"></script>
+    <script type="module" src="js/animationPlayer.js"></script>
+
+</body>
+</html>

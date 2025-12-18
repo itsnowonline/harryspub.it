@@ -1,0 +1,175 @@
+/* RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #071810;
+    font-family: system-ui, sans-serif;
+}
+
+/* MAIN APP CONTAINER */
+#app {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 9999;
+    transition: opacity 0.9s ease;
+}
+
+/* ============================================================
+   HOME MODE (Page0)
+============================================================ */
+.homeMode {
+    background: #071810;
+}
+
+.homePage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* NAVBAR */
+.topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 52px;
+    background: #071810;
+    border-bottom: 1px solid rgba(242, 198, 84, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.topbar-inner {
+    width: 100%;
+    max-width: 480px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-tagline {
+    font-size: 0.78rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #ffe9a6, #f2c654 50%, #b99232);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-nav {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-link {
+    background: transparent;
+    border: 1px solid rgba(242, 198, 84, 0.45);
+    border-radius: 12px;
+    padding: 2px 6px;
+    font-size: 0.62rem;
+    color: #f2e6b8;
+}
+
+/* HOME BACKGROUND */
+.home-bg {
+    position: fixed;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 52px - 65px);
+    background-image: url("../assets/img/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    pointer-events: auto;
+    z-index: 1;
+}
+
+/* FOOTER */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background: #071810;
+    border-top: 1px solid rgba(242, 198, 84, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.footer-icons {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    justify-content: space-around;
+}
+
+.f-item {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-icon-img {
+    width: 22px;
+    height: 22px;
+}
+
+.f-label {
+    font-size: 0.65rem;
+    color: white;
+}
+
+/* DISABLE PAGE0 FULL SCREEN OVERLAY BLOCK */
+#page0 {
+    pointer-events: none;
+}
+#page0 * {
+    pointer-events: auto;
+}
+.img-top-right { 
+    width: 160px;
+    height: 140px;
+    top: 5px;
+    right: 10px;
+}
+/* PAGE 6 IMAGE */
+.img-middle {
+    width: 180px;
+    height: 160px;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("../assets/img/logo.png") center/contain no-repeat;
+}
